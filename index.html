@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+</head>
+<body>
+
+    <div id="grade">
+        
+            <form id="action">
+                <label for="Subject">Number of Subject:</label><br>
+                <input id="sub" name="Subject" value=""><br>
+                <label for="marks">Marks: (comma-separated)     </label><br>
+                <input id="marks"name= "marks" placeholder="...." ><br><br>
+                <input type="submit" value="Submit">
+            
+        </form>
+
+            <div>
+
+            <button onclick="grade()">Calculate Grades</button>
+           
+            <div id="results"></div>
+           
+        </div>
+        <script src="script.js"></script>
+   
+</body>
+</html>
